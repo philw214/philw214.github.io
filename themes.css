@@ -1,0 +1,21 @@
+*
+{
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+  background-color: transparent;
+  font-weight: normal;
+  font-style: inherit;
+}
+
+img{
+  width: 500px;
+  height: 375px;
+}
+h1{
+  font-weight: 700;
+}
+p{
+  font-size: 17px;
+}
