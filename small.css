@@ -1,0 +1,10 @@
+@media (max-width:500px){
+  /*body{
+    max-width: 300px;
+  }*/
+  img{
+     width: 50vw;
+     height: 40vw;
+
+  }
+}
