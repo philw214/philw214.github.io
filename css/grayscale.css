@@ -18,8 +18,8 @@ html {
 }
 
 img{
-  height: 60%;
-  width: 60%;
+  height: 45%;
+  width: 45%;
   border-radius: 30px;
   margin-bottom: 15px;
 }
@@ -264,7 +264,10 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+}
+
+#about{
+    padding: 80px 0 0 0;
 }
 
 .download-section {
