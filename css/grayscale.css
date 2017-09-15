@@ -40,9 +40,23 @@ img{
   width: 45%;
   margin-bottom: 15px;
 }
+.navbar-custom a.dev-nav,
+#devprojects h2,
+#devprojects h3,
+#devprojects p  {
+  color: #42dca3;
+}
+.navbar-custom .nav li a.dev-nav:hover {
+  color: #31A67B;
+}
+.navbar-custom a.audio-nav,
 #audioprojects h2,
-#audioprojects h3 {
+#audioprojects h3,
+#audioprojects p {
   color: #ff9933;
+}
+.navbar-custom .nav li a.audio-nav:hover {
+  color: #BD7025;
 }
 .project-title{
 font-family: 'Poiret One', cursive;
