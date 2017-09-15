@@ -40,6 +40,10 @@ img{
   width: 45%;
   margin-bottom: 15px;
 }
+#audioprojects h2,
+#audioprojects h3 {
+  color: #ff9933;
+}
 .project-title{
 font-family: 'Poiret One', cursive;
 }

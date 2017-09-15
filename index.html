@@ -23,6 +23,11 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One|Sarpanch:800' rel='stylesheet' type='text/css'>
 
+    <!-- Video.js CDN -->
+    <link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
+    <!-- If you'd like to support IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +64,11 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#project">Projects</a>
+                        <a class="page-scroll" href="#devprojects">Dev Projects</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#audioprojects">Audio Projects</a>
                     </li>
 
                     <li>
@@ -80,7 +89,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Phillip Winston</h1>
-                        <p class="intro-text">Web Developer</p>
+                        <p class="intro-text">Web Development | Audio Production</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -109,11 +118,29 @@
         </div>
     </section>
 
-    <!--Projects Section  -->
-    <section id="project" class="container content-section text-center">
+    <!--Audio Projects Section  -->
+    <section id="audioprojects" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Projects</h2>
+                <h2>Audio Projects</h2>
+                <iframe src="https://player.vimeo.com/video/66180522?color=ff9933&byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <h3 class='project-title'>Sound Design Reel</h3>
+                <iframe src="https://player.vimeo.com/video/129394178?color=ff9933&byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <h3 class='project-title'>Keep Talking (Short Film)</h3>
+                <p>Sound Design, Sound Editing</p>
+                <video id="my-video" class="video-js" controls preload="auto" width="640" height="360">
+                   <source src="./assets/timelapse.mp4" type='video/mp4'>
+                   <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video.</p>
+                 </video>
+            </div>
+        </div>
+    </section>
+
+    <!--Dev Projects Section  -->
+    <section id="devprojects" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Dev Projects</h2>
                 <a href="http://phillipwinston.com/philw214.github.io-eastofmauiredesign-/"><img class="musicvu" src='./img/eom.png'></a>
                 <h3 class='project-title'>East of Maui Redesign</h3>
                 <p>A homepage redesign of a local skate/surf shop. The existing homepage can be found <a href="http://www.eastofmauiboardshop.com/" target="_blank">here</a>. </p>
@@ -164,6 +191,8 @@
             <p>Copyright &copy; Phillip Winston 2017</p>
         </div>
     </footer>
+
+    <script src="http://vjs.zencdn.net/6.2.7/video.js"></script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
