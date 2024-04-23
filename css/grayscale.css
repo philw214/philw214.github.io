@@ -19,6 +19,7 @@ html {
 .musicvu{
   height: 74%;
   width: 74%;
+  margin-bottom: 30px;
 }
 .journey{
   height: 91%;
@@ -38,13 +39,28 @@ html {
 img{
   height: 45%;
   width: 45%;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 .navbar-custom a.dev-nav,
 #devprojects h2,
 #devprojects h3,
 #devprojects p  {
   color: #42dca3;
+}
+#devprojects .item-cont {
+  margin-bottom: 35px;
+}
+.item-cont span {
+  font-weight: bold;
+  color: #42dca3;
+}
+.s-s{
+  display: flex;
+}
+.s-s .musicvu {
+    height: auto;
+    width: 100%;
+    max-width: 95%;
 }
 .navbar-custom .nav li a.dev-nav:hover {
   color: #31A67B;
@@ -303,11 +319,12 @@ a:focus {
 
 .content-section {
 }
-
-#about{
-    padding: 80px 0 0 0;
+#about {
+    /* padding: 80px 0 30px 0; */
 }
-
+#about img {
+    margin-bottom: 15px;
+}
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -320,20 +337,20 @@ a:focus {
     -o-background-size: cover;
 }
 #contact{
-  margin-bottom: 17%;
+  /* margin-bottom: 17%; */
 }
-
+.content-section {
+  padding-top: 100px;
+}
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 250px;
-    }
-
+  .content-section {
+      padding-top: 150px;
+  }
     .download-section {
         padding: 100px 0;
     }
 
 }
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;

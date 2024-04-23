@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>CTA - UI Scroll Down Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Vision-2050" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vision-2050---1" transform="translate(-784.000000, -739.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="1-Intro" transform="translate(0.000000, 100.000000)">
+                <g id="Header" transform="translate(222.000000, 551.000000)">
+                    <g id="CTA---UI-Scroll-Down-Arrow" transform="translate(563.000000, 89.000000)">
+                        <circle id="Oval" cx="15" cy="15" r="15"></circle>
+                        <g id="Arrow" transform="translate(11.250000, 8.250000)">
+                            <polyline id="Stroke-1" points="7.5 6.75 3.75 10.5 0 6.75"></polyline>
+                            <path d="M3.75,9.75 L3.75,0" id="Stroke-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
